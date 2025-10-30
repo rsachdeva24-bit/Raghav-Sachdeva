@@ -31,19 +31,6 @@ void displayarray(){
     cout<<endl;
 }
 
-void insertelement(){
-    int position, element;
-    cout<<"Enter the position where you want to insert your element:";
-    cin>> position;
-    cout<< "Enter value of element:";
-    cin>> element;
-    for(int i=n;i>=position;i--){
-        arr[i]=arr[i-1];
-    }
-    arr[position-1] =element;
-    n++;
-    cout<< "Element inserted\n";
-}
 
 void deleteelement(){
     int position;
