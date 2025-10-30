@@ -9,7 +9,6 @@ struct Node {
 
 Node* head = nullptr;
 
-
 void insertAtBeginning(int value) {
     Node* newNode = new Node{value, head};
     head = newNode;

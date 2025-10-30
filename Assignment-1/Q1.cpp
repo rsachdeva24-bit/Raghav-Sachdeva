@@ -74,7 +74,7 @@ int main(){
         switch (choice) {
         case 1: createarray(); break;
         case 2: displayarray(); break;
-        case 3: insertelement(); break;
+        
         case 4: deleteelement(); break;
         case 5: linearsearch(); break;
         case 6: cout << "Exiting program...\n"; break;
